@@ -39,40 +39,40 @@
 
 ## 컴포넌트 종류
 
-### <BrowserRouter>
+### <BrowserRouter\>
 
-<aside>
+<aside\>
 💡 웹 애플리케이션에서 History API를 이용해 페이지를 새로고침하지 않고 주소를 변경할 수 있게 해준다.
 
-</aside>
+</aside\>
 
 - BrowserRouter가 상위에 있어야 React Router의 컴포넌트들을 사용할 수 있게 된다.
-- 혹은 index.js에 <APP>을 감싸서 처리할 수도 있다.
+- 혹은 index.js에 <APP\>을 감싸서 처리할 수도 있다.
 
-### <Routes>
+### <Routes\>
 
-<aside>
+<aside\>
 💡 여러개의 Route를 감싸서 그 중 경로가 일치하는 단 하나의 Route만 렌더링을 시켜준다.
 
-</aside>
+</aside\>
 
 - 만약 Routes로 감싸지 않는다면, 경로가 일치하는 모든 요소를 렌더링한다.
 
-### <Route>
+### <Route\>
 
-<aside>
+<aside\>
 💡 path에 주소 경로를 지정하고, element에 이동할 컴포넌트를 입력하여 Link 컴포넌트가 호출된 경로와 일치하다면, 작동된다.
 
-</aside>
+</aside\>
 
 - ❗만일 지정된 주소가 아닌 다른 경로를 입력해서 접근을 시도하면, path=”*” 으로 공통된 화면이 출력되게 할 수 있다.
 
-### <Link>
+### <Link\>
 
-<aside>
+<aside\>
 💡 경로를 연결하는 역할을 하는 컴포넌트
 
-</aside>
+</aside\>
 
 - ReactDOM으로 렌더가 완료되면 Link는 a 요소로 변경된다.
 하지만, a 요소의 기본 이벤트인 새로고침 현상은 나타나지 않는다.
