@@ -1,4 +1,4 @@
-# 코드스테이츠 63일차 정리(Tree, Binary Search Tree, Graph
+# 코드스테이츠 63일차 정리(Tree, Binary Search Tree, Graph)
 
 생성일: 2023년 5월 11일 오전 9:27
 태그: 코드스테이츠 일일 정리
